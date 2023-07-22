@@ -10,7 +10,7 @@
 <script setup>
   import {useFetch} from "nuxt/app";
 
-  const { data }= await useFetch('/api/currency/GBP')
+  const  {data} = await useFetch('/api/currency/LBP')
 </script>
 
 <style scoped>
